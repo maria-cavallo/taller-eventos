@@ -4,4 +4,5 @@ document.getElementById('contenedor').addEventListener('click', function() {
 
 document.querySelector('button').addEventListener('click', function(event) {
     alert('Hola!');
+    event.stopPropagation();
 });
